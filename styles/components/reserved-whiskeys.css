@@ -1,0 +1,77 @@
+.reserved-whiskey{
+    gap: 1em;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+
+    .whiskeys{
+        display: grid;
+        grid-template-columns: repeat(4, minmax(14rem, 320px));
+    }
+
+    .reserved-whiskey__title{
+        font-family: Oleo-bold;
+        font-size: var(--size-4xl);
+    }
+
+    .whiskey{
+        gap: 1em;
+        padding: 1em;
+        display: grid;
+        grid-row: span 5;
+        justify-items: flex-start;
+        grid-template-rows: subgrid;
+    }
+
+    .whiskey__desc{
+        max-width: 60ch;
+    }
+}
+
+
+
+/* 2l */
+/* @media (max-width: 96rem) {} */
+
+/* xl */
+/* @media (maw-width:80rem) {} */
+
+/* lg */
+@media (max-width:64rem) {
+    .reserved-whiskey{
+
+        .whiskeys{
+            display: grid;
+            grid-template-columns: repeat(2, minmax(14rem, 320px));
+        }
+
+        /* .reserved-whiskey__title{
+            font-family: Oleo-bold;
+            font-size: var(--size-4xl);
+        } */
+
+        /* .whiskey{
+            gap: 1em;
+            display: grid;
+            grid-row: span 5;
+            justify-items: flex-start;
+            grid-template-rows: subgrid;
+        } */
+
+        /* .whiskey__desc{
+            max-width: 60ch;
+        } */
+    }
+
+}
+
+/* md */
+/* @media (max-width: 48rem) {} */
+
+/* sm */
+/* @media (max-width: 40rem) {} */
+
+/* xs */
+/* @media (max-width: 29.6875rem) {} */

@@ -1,0 +1,33 @@
+.coontainer{
+    gap: 2em;
+    height: 100dvh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background: url('/rose.png');
+    /* border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px; */
+
+    .testimonials__users{
+        gap: 2em;
+        display: grid;
+        align-items: center;
+        grid-template-columns: repeat(3, minmax(14rem, 320px));
+    }
+
+    .testimonials__user{
+        display: grid;
+        padding: 1em;
+        grid-row: span 4;
+        text-align: center;
+        justify-items: center;
+        grid-template-rows: subgrid;
+        background-color: var(--clr-white);
+    }
+
+    .img__wrapper{
+        width: 120px;
+        height: 120px;
+    }
+}

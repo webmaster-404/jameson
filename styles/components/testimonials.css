@@ -1,0 +1,21 @@
+.testimonials{
+    gap: 2em;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+    .testimonials__title{
+        padding: .6em;
+        font-family: Oleo-bold;
+        font-size: var(--size-4xl);
+        border-bottom: 2px solid var(--clr-red);
+    }
+
+    .testimonials__desc{
+        max-width: 60ch;
+        text-align: center;
+    }
+
+
+}
