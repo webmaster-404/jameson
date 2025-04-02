@@ -37,7 +37,8 @@
 }
 
 .btn-order{
-    padding: .5em 1em;
+    padding: .8em 1em;
+font-family: poppins-light;
     color: rgba(190, 10, 10, 1);
     background-color: rgba(190, 10, 10, 0.2);
 }

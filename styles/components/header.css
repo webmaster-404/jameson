@@ -47,17 +47,6 @@
 }
 
 
-
-
-/* 2l */
-/* @media (max-width: 96rem) {} */
-
-/* xl */
-/* @media (maw-width:80rem) {} */
-
-/* lg */
-/* @media (max-width:64rem) {} */
-
 /* md */
 @media (max-width: 48rem) {
     .header{
@@ -85,8 +74,3 @@
     }
 }
 
-/* sm */
-/* @media (max-width: 40rem) {} */
-
-/* xs */
-/* @media (max-width: 29.6875rem) {} */

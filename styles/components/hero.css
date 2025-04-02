@@ -39,5 +39,7 @@
         max-width: 60ch;
         text-align: center;
         color: var(--clr-white);
+        font-size: var(--size-base);
+        font-family: poppins-semibold;
     }
 }

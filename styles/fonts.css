@@ -3,3 +3,29 @@
     font-family: Oleo-bold;
     src: url('../fonts/oleo-bold.ttf');
 }
+
+/* Poppins */
+
+@font-face {
+    font-weight: 300;
+    font-family: poppins-light;
+    src: url('../fonts/Poppins-Light.woff');
+}
+
+@font-face {
+    font-weight: 400;
+    font-family: poppins-regular;
+    src: url('../fonts/Poppins-Regular.woff');
+}
+
+@font-face {
+    font-weight: 500;
+    font-family: poppins-base;
+    src: url('../fonts/Poppins-Medium.woff');
+}
+
+@font-face {
+    font-weight: 600;
+    font-family: poppins-semibold;
+    src: url('../fonts/Poppins-SemiBold.woff');
+}
